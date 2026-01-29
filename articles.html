@@ -132,7 +132,6 @@
       </div>
     </div>
     <div id="articlesGrid" class="row">
-    <div id="articlesGrid" class="row">
 
 <!-- PÉDIATRIE (Bébés) -->
 <div class="col-xs-12 col-md-6" style="margin-bottom:20px;">
@@ -239,25 +238,6 @@
   </div>
 </div>
     </div>
-  </div>
-</section>
-
-<script>
-(function() {
-  const grid = document.getElementById('articlesGrid');
-  const cards = Array.from(grid.children);
-  function sort(mode) {
-    const sorted = cards.slice().sort((a,b)=>{
-      const ta = a.querySelector('.card-title').innerText.toLowerCase();
-      const tb = b.querySelector('.card-title').innerText.toLowerCase();
-      return mode==='za' ? tb.localeCompare(ta) : ta.localeCompare(tb);
-    });
-    grid.innerHTML = '';
-    sorted.forEach(el=>grid.appendChild(el));
-  }
-  document.getElementById('sortSelect').addEventListener('change', e=>sort(e.target.value));
-})();
-</script>
   </div>
 </section>
 
