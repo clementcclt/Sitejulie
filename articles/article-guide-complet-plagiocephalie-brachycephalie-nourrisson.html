@@ -1,443 +1,220 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Guide complet sur la plagiocephalie et brachycephalie chez le nourrisson : causes, prevention, prise en charge chiropratique. Julie Franche, chiropracteur a Vincennes.">
-    <title>Guide complet : Plagiocephalie et brachycephalie chez le nourrisson - Julie Franche Chiropracteur Vincennes</title>
-    <link rel="shortcut icon" href="../assets/images/1fichier-1-98x128.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            font-family: 'Raleway', sans-serif;
-            color: #555;
-            line-height: 1.8;
-            background-color: #fff;
-        }
-
-        /* Navigation */
-        .navbar {
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            padding: 15px 0;
-        }
-        .navbar-brand {
-            font-weight: 600;
-            color: #c89f5b !important;
-            font-size: 1.4rem;
-        }
-        .navbar-brand img {
-            height: 50px;
-            margin-right: 10px;
-        }
-        .navbar-nav .nav-link {
-            color: #555 !important;
-            font-weight: 500;
-            margin: 0 10px;
-            transition: color 0.3s;
-        }
-        .navbar-nav .nav-link:hover {
-            color: #c89f5b !important;
-        }
-        .btn-rdv {
-            background-color: #c89f5b;
-            color: #fff !important;
-            border-radius: 25px;
-            padding: 10px 25px !important;
-            font-weight: 600;
-        }
-        .btn-rdv:hover {
-            background-color: #b8924f;
-        }
-
-        /* Article Content */
-        .article-header {
-            background: linear-gradient(135deg, #f8f5f0 0%, #fff 100%);
-            padding: 120px 0 60px;
-            margin-bottom: 40px;
-        }
-        .article-header h1 {
-            color: #c89f5b;
-            font-size: 2.2rem;
-            font-weight: 700;
-            margin-bottom: 15px;
-        }
-        .article-meta {
-            color: #888;
-            font-size: 0.9rem;
-        }
-
-        .article-content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px 60px;
-        }
-        .article-content h2 {
-            color: #c89f5b;
-            font-size: 1.5rem;
-            margin-top: 45px;
-            margin-bottom: 20px;
-            font-weight: 600;
-            border-bottom: 2px solid #c89f5b;
-            padding-bottom: 10px;
-        }
-        .article-content h3 {
-            color: #333;
-            font-size: 1.2rem;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-        .article-content p {
-            margin-bottom: 20px;
-            text-align: justify;
-        }
-        .article-content ul {
-            margin-bottom: 25px;
-            padding-left: 20px;
-        }
-        .article-content ul li {
-            margin-bottom: 10px;
-            position: relative;
-            padding-left: 15px;
-        }
-        .article-content ul li::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 10px;
-            width: 6px;
-            height: 6px;
-            background-color: #c89f5b;
-            border-radius: 50%;
-        }
-
-        .highlight-box {
-            background: #f8f5f0;
-            border-left: 4px solid #c89f5b;
-            padding: 20px 25px;
-            margin: 30px 0;
-            font-style: italic;
-            color: #666;
-        }
-
-        .info-box {
-            background: #fff9f0;
-            border: 1px solid #c89f5b;
-            padding: 25px;
-            margin: 30px 0;
-            border-radius: 8px;
-        }
-        .info-box h4 {
-            color: #c89f5b;
-            font-size: 1.1rem;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-
-        .cta-box {
-            background: #c89f5b;
-            color: #fff;
-            padding: 35px;
-            text-align: center;
-            margin: 45px 0;
-            border-radius: 8px;
-        }
-        .cta-box h3 {
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-        .cta-box p {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-        .cta-box .btn {
-            background: #fff;
-            color: #c89f5b;
-            padding: 12px 35px;
-            border-radius: 25px;
-            font-weight: 600;
-            text-decoration: none;
-            display: inline-block;
-            transition: all 0.3s;
-        }
-        .cta-box .btn:hover {
-            background: #f8f5f0;
-            transform: translateY(-2px);
-        }
-
-        .sources {
-            background: #f9f9f9;
-            padding: 25px;
-            margin-top: 45px;
-            border-radius: 8px;
-        }
-        .sources h3 {
-            font-size: 1.1rem;
-            color: #c89f5b;
-            margin-bottom: 15px;
-            font-weight: 600;
-        }
-        .sources ul {
-            font-size: 0.85rem;
-            color: #777;
-            columns: 2;
-            column-gap: 30px;
-        }
-        .sources ul li {
-            margin-bottom: 8px;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #3a3a3a;
-            color: #ccc;
-            padding: 50px 0 20px;
-        }
-        footer h5 {
-            color: #c89f5b;
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-        footer a {
-            color: #ccc;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        footer a:hover {
-            color: #c89f5b;
-        }
-        footer .footer-bottom {
-            border-top: 1px solid #555;
-            margin-top: 30px;
-            padding-top: 20px;
-            text-align: center;
-            font-size: 0.9rem;
-        }
-
-        /* Back to articles */
-        .back-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            color: #c89f5b;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        .back-link:hover {
-            color: #b8924f;
-            text-decoration: none;
-        }
-
-        @media (max-width: 768px) {
-            .sources ul {
-                columns: 1;
-            }
-        }
-    </style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="shortcut icon" href="../assets/images/1fichier-1-98x128.png" type="image/x-icon">
+	<meta name="description" content="Guide complet sur la plagiocephalie et brachycephalie chez le nourrisson : causes, prevention, prise en charge chiropratique. Julie Franche, chiropracteur a Vincennes.">
+	<title>Guide complet : Plagiocephalie et brachycephalie chez le nourrisson - Julie FRANCHE Chiropracteur Vincennes</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700">
+	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assets/theme/css/style.css">
+	<link rel="stylesheet" href="../assets/mobirise/css/mbr-additional.css">
+	<link rel="stylesheet" href="../assets/dropdown/css/style.css">
+	<link rel="stylesheet" href="../assets/et-line-font-plugin/style.css">
+	<style>
+		body { font-family: 'Raleway', sans-serif; color: #555; line-height: 1.8; }
+		.article-content { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+		.article-content h1 { color: #c89f5b; font-size: 2rem; margin-bottom: 30px; font-weight: 600; }
+		.article-content h2 { color: #c89f5b; font-size: 1.4rem; margin-top: 40px; margin-bottom: 20px; font-weight: 600; border-bottom: 2px solid #c89f5b; padding-bottom: 10px; }
+		.article-content h3 { color: #333; font-size: 1.2rem; margin-top: 30px; margin-bottom: 15px; font-weight: 600; }
+		.article-content p { margin-bottom: 15px; text-align: justify; }
+		.article-content ul { margin-bottom: 20px; padding-left: 25px; }
+		.article-content ul li { margin-bottom: 8px; }
+		.article-content .highlight-box { background: #f8f5f0; border-left: 4px solid #c89f5b; padding: 20px; margin: 25px 0; font-style: italic; }
+		.article-content .info-box { background: #fff9f0; border: 1px solid #c89f5b; padding: 20px; margin: 25px 0; border-radius: 8px; }
+		.article-content .info-box h4 { color: #c89f5b; font-size: 1.1rem; margin-bottom: 10px; font-weight: 600; }
+		.article-content .cta-box { background: #c89f5b; color: white; padding: 30px; text-align: center; margin: 40px 0; border-radius: 8px; }
+		.article-content .cta-box a { color: white; text-decoration: underline; font-weight: 600; }
+		.article-content .sources { background: #f5f5f5; padding: 20px; margin-top: 40px; font-size: 0.9rem; }
+		.article-content .sources h3 { color: #666; font-size: 1rem; }
+		.back-link { margin-bottom: 30px; }
+		.back-link a { color: #c89f5b; text-decoration: none; font-weight: 500; }
+		.back-link a:hover { text-decoration: underline; }
+	</style>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../assets/images/1fichier-1-98x128.png" alt="Logo">
-                Julie Franche
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">Accueil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../votre-chiropracteur.html">Votre Chiropracteur</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../les-traitements.html">Les Traitements</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../articles.html">Articles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../informations-pratiques.html">Infos Pratiques</a></li>
-                    <li class="nav-item"><a class="nav-link btn-rdv" href="../prendre-rdv.html">Prendre RDV</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+	<section id="ext_menu-0">
+		<nav class="navbar navbar-dropdown navbar-fixed-top">
+			<div class="container">
+				<div class="mbr-table">
+					<div class="mbr-table-cell">
+						<div class="navbar-brand">
+							<a href="../index.html" class="navbar-logo"><img src="../assets/images/1fichier-1-98x128.png" alt="logo"></a>
+							<a class="navbar-caption text-primary" href="../index.html">Julie Franche</a>
+						</div>
+					</div>
+					<div class="mbr-table-cell">
+						<button class="navbar-toggler pull-xs-right hidden-md-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+							<div class="hamburger-icon"></div>
+						</button>
+						<ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
+							<li class="nav-item"><a class="nav-link link" href="../index.html">ACCUEIL</a></li>
+							<li class="nav-item"><a class="nav-link link" href="../votre-chiropracteur.html">VOTRE CHIROPRACTEUR</a></li>
+							<li class="nav-item"><a class="nav-link link" href="../les-traitements.html">LES TRAITEMENTS</a></li>
+							<li class="nav-item"><a class="nav-link link" href="../articles.html"><u>ARTICLES</u></a></li>
+							<li class="nav-item nav-btn"><a class="nav-link btn btn-info-outline btn-info" href="../informations-pratiques.html">Informations pratiques</a></li>
+							<li class="nav-item nav-btn"><a class="nav-link btn btn-primary" href="../prendre-rdv.html">PRENDRE RDV</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</section>
 
-    <!-- Article Header -->
-    <header class="article-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 mx-auto">
-                    <a href="../articles.html" class="back-link">&larr; Retour aux articles</a>
-                    <h1>Plagiocephalie et brachycephalie chez le nourrisson : comprendre, prevenir et traiter efficacement</h1>
-                    <p class="article-meta">Par Julie Franche, Chiropracteur a Vincennes</p>
-                </div>
-            </div>
-        </div>
-    </header>
+	<section style="padding-top: 120px; background: #fff;">
+		<div class="article-content">
+			<div class="back-link">
+				<a href="../articles.html">&larr; Retour aux articles</a>
+			</div>
 
-    <!-- Article Content -->
-    <article class="article-content">
-        <h2>Des deformations craniennes positionnelles frequentes</h2>
-        <p>La plagiocephalie et la brachycephalie sont des deformations craniennes positionnelles de plus en plus observees chez le nourrisson. Elles apparaissent principalement durant les premiers mois de vie, periode durant laquelle le crane est particulierement malleable.</p>
-        <p>Ces deformations ne sont pas liees a une synostose, mais a des contraintes mecaniques prolongees, souvent associees a une position preferentielle de la tete ou a un torticolis congenital.</p>
+			<h1>Plagiocephalie et brachycephalie chez le nourrisson : comprendre, prevenir et traiter efficacement</h1>
 
-        <h2>Qu'est-ce que la brachycephalie ?</h2>
-        <p>La brachycephalie correspond a un aplatissement symetrique de la partie posterieure du crane. Le crane apparait raccourci dans son axe antero-posterieur et elargi sur ses cotes lateraux.</p>
-        <p>Elle est principalement liee a la position allongee prolongee sur le dos et a un manque de variations posturales. Contrairement a la plagiocephalie, les consequences de la brachycephalie sont essentiellement esthetiques, sans repercussion fonctionnelle demontree a ce jour.</p>
+			<h2>Des deformations craniennes positionnelles frequentes</h2>
+			<p>La plagiocephalie et la brachycephalie sont des deformations craniennes positionnelles de plus en plus observees chez le nourrisson. Elles apparaissent principalement durant les premiers mois de vie, periode durant laquelle le crane est particulierement malleable.</p>
+			<p>Ces deformations ne sont pas liees a une synostose, mais a des contraintes mecaniques prolongees, souvent associees a une position preferentielle de la tete ou a un torticolis congenital.</p>
 
-        <h2>Qu'est-ce que la plagiocephalie ?</h2>
-        <p>La plagiocephalie est une deformation asymetrique du crane. Elle se manifeste par :</p>
-        <ul>
-            <li>Un aplatissement de l'arriere-crane d'un cote</li>
-            <li>Une projection anterieure de l'oreille du meme cote</li>
-            <li>Une avancee du front et parfois de la joue</li>
-        </ul>
-        <p>Elle est le plus souvent liee a une position preferentielle de la tete ou a un torticolis congenital, parfois secondaire a un accouchement difficile (forceps, ventouse, presentation en siege, grossesse multiple).</p>
+			<h2>Qu'est-ce que la brachycephalie ?</h2>
+			<p>La brachycephalie correspond a un aplatissement symetrique de la partie posterieure du crane. Le crane apparait raccourci dans son axe antero-posterieur et elargi sur ses cotes lateraux.</p>
+			<p>Elle est principalement liee a la position allongee prolongee sur le dos et a un manque de variations posturales. Contrairement a la plagiocephalie, les consequences de la brachycephalie sont essentiellement esthetiques, sans repercussion fonctionnelle demontree a ce jour.</p>
 
-        <div class="highlight-box">
-            Contrairement a la brachycephalie, la plagiocephalie peut etre associee a des repercussions fonctionnelles, notamment au niveau de la machoire, de l'audition, du systeme oculaire et du developpement moteur.
-        </div>
+			<h2>Qu'est-ce que la plagiocephalie ?</h2>
+			<p>La plagiocephalie est une deformation asymetrique du crane. Elle se manifeste par :</p>
+			<ul>
+				<li>Un aplatissement de l'arriere-crane d'un cote</li>
+				<li>Une projection anterieure de l'oreille du meme cote</li>
+				<li>Une avancee du front et parfois de la joue</li>
+			</ul>
+			<p>Elle est le plus souvent liee a une position preferentielle de la tete ou a un torticolis congenital, parfois secondaire a un accouchement difficile (forceps, ventouse, presentation en siege, grossesse multiple).</p>
+			<div class="highlight-box">
+				Contrairement a la brachycephalie, la plagiocephalie peut etre associee a des repercussions fonctionnelles, notamment au niveau de la machoire, de l'audition, du systeme oculaire et du developpement moteur.
+			</div>
 
-        <h2>Le role du torticolis du nourrisson</h2>
-        <p>Le torticolis congenital est une pathologie frequente chez le nourrisson. Il se caracterise par une rotation preferentielle de la tete vers un cote, associee a une inclinaison opposee, en lien avec une tension ou un raccourcissement du muscle sterno-cleido-mastoidien.</p>
+			<h2>Le role du torticolis du nourrisson</h2>
+			<p>Le torticolis congenital est une pathologie frequente chez le nourrisson. Il se caracterise par une rotation preferentielle de la tete vers un cote, associee a une inclinaison opposee, en lien avec une tension ou un raccourcissement du muscle sterno-cleido-mastoidien.</p>
 
-        <h3>Les signes evocateurs sont :</h3>
-        <ul>
-            <li>Bebe qui tourne toujours la tete du meme cote</li>
-            <li>Position de sommeil systematiquement identique</li>
-            <li>Gene ou pleurs lors de la mobilisation du cou</li>
-            <li>Apparition secondaire d'un aplatissement du crane</li>
-        </ul>
+			<h3>Les signes evocateurs sont :</h3>
+			<ul>
+				<li>Bebe qui tourne toujours la tete du meme cote</li>
+				<li>Position de sommeil systematiquement identique</li>
+				<li>Gene ou pleurs lors de la mobilisation du cou</li>
+				<li>Apparition secondaire d'un aplatissement du crane</li>
+			</ul>
+			<div class="info-box">
+				<h4>Important</h4>
+				<p>Un torticolis non pris en charge constitue l'un des principaux facteurs de developpement d'une plagiocephalie.</p>
+			</div>
 
-        <div class="info-box">
-            <h4>Important</h4>
-            <p>Un torticolis non pris en charge constitue l'un des principaux facteurs de developpement d'une plagiocephalie.</p>
-        </div>
+			<h2>Objets de puericulture a eviter</h2>
+			<p>Certains equipements limitent la liberte de mouvement du nourrisson et favorisent les appuis prolonges :</p>
+			<ul>
+				<li>Reducteurs de lit</li>
+				<li>Coussins dits "anti tete plate"</li>
+				<li>Matelas a memoire de forme</li>
+				<li>Coussins mous ou d'allaitement</li>
+				<li>Transats utilises de facon prolongee</li>
+				<li>Arches d'eveil fixes</li>
+			</ul>
+			<p>Il est recommande de privilegier un environnement permettant au bebe de bouger librement.</p>
 
-        <h2>Objets de puericulture a eviter</h2>
-        <p>Certains equipements limitent la liberte de mouvement du nourrisson et favorisent les appuis prolonges :</p>
-        <ul>
-            <li>Reducteurs de lit</li>
-            <li>Coussins dits "anti tete plate"</li>
-            <li>Matelas a memoire de forme</li>
-            <li>Coussins mous ou d'allaitement</li>
-            <li>Transats utilises de facon prolongee</li>
-            <li>Arches d'eveil fixes</li>
-        </ul>
-        <p>Il est recommande de privilegier un environnement permettant au bebe de bouger librement.</p>
+			<h2>Quelle prise en charge selon l'age du bebe ?</h2>
 
-        <h2>Quelle prise en charge selon l'age du bebe ?</h2>
+			<h3>De 0 a 4 mois</h3>
+			<ul>
+				<li>Chiropraxie pediatrique</li>
+				<li>Kinesitherapie</li>
+				<li>Repositionnement adapte avec alternance des appuis</li>
+			</ul>
+			<p>Cette periode est la plus favorable a une correction rapide et efficace.</p>
 
-        <h3>De 0 a 4 mois</h3>
-        <ul>
-            <li>Chiropraxie pediatrique</li>
-            <li>Kinesitherapie</li>
-            <li>Repositionnement adapte avec alternance des appuis</li>
-        </ul>
-        <p>Cette periode est la plus favorable a une correction rapide et efficace.</p>
+			<h3>Au-dela de 4 mois</h3>
+			<ul>
+				<li>Poursuite de la prise en charge en chiropraxie et en kinesitherapie</li>
+				<li>Orientation medicale specialisee afin d'evaluer l'indication eventuelle du port d'un casque orthopedique</li>
+			</ul>
+			<p>Le port du casque n'est jamais systematique et releve d'une decision medicale encadree.</p>
 
-        <h3>Au-dela de 4 mois</h3>
-        <ul>
-            <li>Poursuite de la prise en charge en chiropraxie et en kinesitherapie</li>
-            <li>Orientation medicale specialisee afin d'evaluer l'indication eventuelle du port d'un casque orthopedique</li>
-        </ul>
-        <p>Le port du casque n'est jamais systematique et releve d'une decision medicale encadree.</p>
+			<h2>Le role du chiropracteur</h2>
+			<p>Le chiropracteur forme en pediatrie intervient pour :</p>
+			<ul>
+				<li>Mesurer la deformation cranienne a l'aide d'un craniometre</li>
+				<li>Identifier et traiter un eventuel torticolis</li>
+				<li>Accompagner le developpement moteur du nourrisson</li>
+				<li>Conseiller les parents sur le repositionnement et l'environnement</li>
+				<li>Orienter vers un medecin specialiste en cas de deformation importante</li>
+			</ul>
+			<div class="highlight-box">
+				Les techniques utilisees sont specifiques au nourrisson, douces et indolores, sans manipulation forcee.
+			</div>
 
-        <h2>Le role du chiropracteur</h2>
-        <p>Le chiropracteur forme en pediatrie intervient pour :</p>
-        <ul>
-            <li>Mesurer la deformation cranienne a l'aide d'un craniometre</li>
-            <li>Identifier et traiter un eventuel torticolis</li>
-            <li>Accompagner le developpement moteur du nourrisson</li>
-            <li>Conseiller les parents sur le repositionnement et l'environnement</li>
-            <li>Orienter vers un medecin specialiste en cas de deformation importante</li>
-        </ul>
+			<h2>Pourquoi une prise en charge precoce est essentielle</h2>
+			<p>Une prise en charge precoce permet :</p>
+			<ul>
+				<li>De limiter l'aggravation des asymetries</li>
+				<li>De reduire le recours au casque</li>
+				<li>De favoriser un developpement moteur harmonieux</li>
+				<li>D'ameliorer le confort et le sommeil du bebe</li>
+				<li>De rassurer les parents</li>
+			</ul>
+			<div class="info-box">
+				<h4>A retenir</h4>
+				<p>Plus l'intervention est precoce, plus les resultats sont rapides et durables.</p>
+			</div>
 
-        <div class="highlight-box">
-            Les techniques utilisees sont specifiques au nourrisson, douces et indolores, sans manipulation forcee.
-        </div>
+			<div class="cta-box">
+				<h3>Prendre rendez-vous a Vincennes</h3>
+				<p>Julie Franche, chiropracteur a Vincennes, accompagne les nourrissons des les premieres semaines de vie pour prevenir et corriger les deformations craniennes, traiter les torticolis et favoriser un developpement moteur harmonieux.</p>
+				<p><a href="https://www.doctolib.fr/chiropracteur/vincennes/julie-franche" target="_blank">Reserver une consultation</a></p>
+			</div>
 
-        <h2>Pourquoi une prise en charge precoce est essentielle</h2>
-        <p>Une prise en charge precoce permet :</p>
-        <ul>
-            <li>De limiter l'aggravation des asymetries</li>
-            <li>De reduire le recours au casque</li>
-            <li>De favoriser un developpement moteur harmonieux</li>
-            <li>D'ameliorer le confort et le sommeil du bebe</li>
-            <li>De rassurer les parents</li>
-        </ul>
+			<div class="sources">
+				<h3>Sources et references</h3>
+				<ul>
+					<li>Argenta LC. Clinical classification of positional plagiocephaly. J Craniofac Surg. 2004</li>
+					<li>Agramonte MN et al. The back to sleep campaign and deformational plagiocephaly. J Clin Pharm Ther. 1999</li>
+					<li>Ballardini E et al. Prevalence of positional plagiocephaly in healthy newborns. Ital J Pediatr. 2019</li>
+					<li>Baumler C et al. Asymetrie mandibulaire et plagiocephalie. Rev Stomatol Chir Maxillofac. 2007</li>
+					<li>Cabrera-Martos I et al. Posture and balance in plagiocephaly. J Paediatr Child Health. 2015</li>
+					<li>Collett BR et al. Development at 36 months in deformational plagiocephaly. Pediatrics. 2013</li>
+					<li>van Vlimmeren LA et al. Risk factors for deformational plagiocephaly. Pediatrics. 2007</li>
+					<li>Huysentruyt G. Le guide du crane du nourrisson. Editions Sully, 2020</li>
+					<li>De Gasquet B, Marck M. Mon bebe n'aura pas la tete plate</li>
+					<li>Association Francaise de Chiropraxie - www.chiropraxie.com</li>
+					<li>www.plagiocephalie.com</li>
+					<li>www.bebeteteplate.fr</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 
-        <div class="info-box">
-            <h4>A retenir</h4>
-            <p>Plus l'intervention est precoce, plus les resultats sont rapides et durables.</p>
-        </div>
+	<section class="mbr-footer mbr-section mbr-section-md-padding" style="background-color: #efefef; padding-top: 30px; padding-bottom: 20px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-4">
+					<h4>Contact</h4>
+					<p>Cabinet de chiropraxie<br>12 rue Raymond du Temple<br>94300 Vincennes<br>Tel: 01 58 64 20 06</p>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<h4>Liens rapides</h4>
+					<ul style="list-style: none; padding: 0;">
+						<li><a href="../prendre-rdv.html">Prendre RDV</a></li>
+						<li><a href="../articles.html">Articles</a></li>
+						<li><a href="../informations-pratiques.html">Informations pratiques</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<h4>Acces</h4>
+					<p>Metro Ligne 1 : Chateau de Vincennes<br>RER A : Vincennes<br>Bus : 118, 124, 115, 218, 56</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <div class="cta-box">
-            <h3>Prendre rendez-vous a Vincennes</h3>
-            <p>Julie Franche, chiropracteur a Vincennes, accompagne les nourrissons des les premieres semaines de vie pour prevenir et corriger les deformations craniennes, traiter les torticolis et favoriser un developpement moteur harmonieux.</p>
-            <a href="https://www.doctolib.fr/chiropracteur/vincennes/julie-franche" class="btn" target="_blank">Reserver une consultation</a>
-        </div>
-
-        <div class="sources">
-            <h3>Sources et references</h3>
-            <ul>
-                <li>Argenta LC. Clinical classification of positional plagiocephaly. J Craniofac Surg. 2004</li>
-                <li>Agramonte MN et al. The back to sleep campaign and deformational plagiocephaly. J Clin Pharm Ther. 1999</li>
-                <li>Ballardini E et al. Prevalence of positional plagiocephaly in healthy newborns. Ital J Pediatr. 2019</li>
-                <li>Baumler C et al. Asymetrie mandibulaire et plagiocephalie. Rev Stomatol Chir Maxillofac. 2007</li>
-                <li>Cabrera-Martos I et al. Posture and balance in plagiocephaly. J Paediatr Child Health. 2015</li>
-                <li>Collett BR et al. Development at 36 months in deformational plagiocephaly. Pediatrics. 2013</li>
-                <li>van Vlimmeren LA et al. Risk factors for deformational plagiocephaly. Pediatrics. 2007</li>
-                <li>Huysentruyt G. Le guide du crane du nourrisson. Editions Sully, 2020</li>
-                <li>De Gasquet B, Marck M. Mon bebe n'aura pas la tete plate</li>
-                <li>Association Francaise de Chiropraxie - www.chiropraxie.com</li>
-                <li>www.plagiocephalie.com</li>
-                <li>www.bebeteteplate.fr</li>
-            </ul>
-        </div>
-    </article>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <h5>Contact</h5>
-                    <p>
-                        <strong>Cabinet de Chiropraxie</strong><br>
-                        Julie Franche<br>
-                        12 rue Raymond du Temple<br>
-                        94300 Vincennes<br><br>
-                        Tel : 01 58 64 20 06
-                    </p>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <h5>Liens rapides</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="../prendre-rdv.html">Prendre RDV</a></li>
-                        <li><a href="../informations-pratiques.html">Informations pratiques</a></li>
-                        <li><a href="../votre-chiropracteur.html">Votre chiropracteur</a></li>
-                        <li><a href="../les-traitements.html">Les traitements</a></li>
-                        <li><a href="../articles.html">Articles</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <h5>Acces</h5>
-                    <p>
-                        <strong>Metro :</strong> Ligne 1, arret "Chateau de Vincennes"<br>
-                        <strong>RER A :</strong> Arret "Vincennes"<br>
-                        <strong>Bus :</strong> 118, 124, 115, 218, 56<br>
-                        <strong>Parking :</strong> Centre-ville
-                    </p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Julie Franche - Chiropracteur a Vincennes. Tous droits reserves.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="../assets/web/assets/jquery/jquery.min.js"></script>
+	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/dropdown/js/script.min.js"></script>
+	<script src="../assets/theme/js/script.js"></script>
 </body>
 </html>
