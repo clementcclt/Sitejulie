@@ -10,5 +10,3 @@ Disallow: /*.backup.html$
 # Sitemap
 Sitemap: https://jfranche-chiro.com/sitemap.xml
 
-# Crawl-delay recommandé pour éviter la surcharge
-Crawl-delay: 1
