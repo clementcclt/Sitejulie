@@ -92,7 +92,68 @@
 		]
 	}
 	</script>
-	
+
+	<!-- Schema.org Review - Avis patients -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "Chiropractor",
+		"name": "Julie Franche - Chiropracteur",
+		"url": "https://jfranche-chiro.com",
+		"review": [
+			{
+				"@type": "Review",
+				"author": {"@type": "Person", "name": "Arnaud M."},
+				"reviewBody": "Impeccable. Très pro. Explique chacune de ses manipulations et donne de nombreux conseils pour soulager son dos des efforts du quotidien.",
+				"reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
+			},
+			{
+				"@type": "Review",
+				"author": {"@type": "Person", "name": "Vincent L."},
+				"reviewBody": "J'avais un apriori sur ce métier, complètement gommé par le professionnalisme de Julie. Elle m'a complètement réparé. 2 séances par an suffisent pour ne plus avoir mal au dos!",
+				"reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
+			},
+			{
+				"@type": "Review",
+				"author": {"@type": "Person", "name": "Sandra H."},
+				"reviewBody": "Au top! Prise en charge de qualité et a bien ciblé mon souci, puis explique tous ses gestes avant les manipulations. Je la recommande.",
+				"reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"}
+			}
+		],
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "5",
+			"bestRating": "5",
+			"ratingCount": "3"
+		}
+	}
+	</script>
+
+	<!-- Schema.org BreadcrumbList -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{"@type": "ListItem", "position": 1, "name": "Accueil"}
+		]
+	}
+	</script>
+
+	<!-- Preconnect pour performance -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+
+	<!-- Google Analytics 4 (dans le head pour performance) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-L8PTKVXCZE"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-L8PTKVXCZE');
+	</script>
+
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
@@ -126,23 +187,13 @@
 <style>h1.mbr-section-title.display-2{color:#585b5b !important;}</style>
 </head>
 <body>
-	
-	<!-- Google Analytics 4 -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-L8PTKVXCZE"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-L8PTKVXCZE');
-	</script>
-	
-	
+
 	  <section id="ext_menu-0" data-rv-view="0">
 		<nav class="navbar navbar-dropdown navbar-fixed-top">
 			<div class="container">
 				<div class="mbr-table">
 					<div class="mbr-table-cell">
-						<div class="navbar-brand"><a href="http://jfranche-chiro.com/" class="navbar-logo">
+						<div class="navbar-brand"><a href="https://jfranche-chiro.com/" class="navbar-logo">
 							<img src="assets/images/1fichier-1-98x128.png" alt="Julie Franche Chiropracteur Vincennes" title="Julie Franche Chiropracteur"></a>
 	                        <a class="navbar-caption text-primary" href="index.html">Julie Franche</a></div>
 					</div>
@@ -179,7 +230,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="mbr-section col-md-10">
-						<h2 class="mbr-section-title display-1">Votre chiropracteur <span style="font-weight: normal;">au</span> centre-ville <span style="font-weight: normal;">de</span> Vincennes</h2>
+						<h1 class="mbr-section-title display-1">Votre chiropracteur <span style="font-weight: normal;">au</span> centre-ville <span style="font-weight: normal;">de</span> Vincennes</h1>
 					</div>
 				</div>
 			</div>
@@ -192,7 +243,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1 class="mbr-section-title display-2">Julie FRANCHE</h1>
+					<h2 class="mbr-section-title display-2">Julie FRANCHE</h2>
 	                <small class="mbr-section-subtitle">votre chiropracteur à Vincennes&nbsp;</small></div>
 			</div>
 		</div>
@@ -346,7 +397,7 @@
 				<div class="mbr-company card">
 					<div>
 						<center>
-							<img src="assets/images/1fichier-12-265x118.png" class="card-img-top">
+							<img src="assets/images/1fichier-12-265x118.png" class="card-img-top" alt="Logo Cabinet Chiropraxie Julie Franche Vincennes">
 						</center>
 					</div>
 					
@@ -375,7 +426,7 @@
 					<li><a class="text-primary" href="informations-pratiques.html">Informations pratiques</a></li>
 					<li><a class="text-primary" href="votre-chiropracteur.html">Votre chiropracteur</a></li>
 					<li><a class="text-primary" href="les-traitements.html">Les traitements</a></li>
-					<li><a class="text-primary" href="articles.html">La FAQ</a></li>
+					<li><a class="text-primary" href="articles.html">Articles</a></li>
 				</ul>
 			</div>
 			
